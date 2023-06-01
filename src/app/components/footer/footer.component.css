@@ -1,0 +1,38 @@
+.footer {
+  height: 12rem;
+
+  background: #000000;
+
+  justify-content: space-around;
+}
+.footer-left-content {
+  align-items: start;
+}
+.footer-logo {
+  margin-left: 3.5rem;
+}
+.footer-nav {
+  margin-top: 2rem;
+}
+.footer-link {
+  margin: 0 1rem;
+
+  color: #ffffff;
+
+  text-transform: uppercase;
+
+  font-weight: bold;
+}
+
+.footer-social-links {
+  margin-top: 4rem;
+}
+.footer-social-img {
+  margin: 0 1rem;
+}
+
+.footer-rights {
+  margin-top: 4rem;
+
+  color: #6c6c6c;
+}

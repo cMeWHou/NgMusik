@@ -1,0 +1,20 @@
+<div class="modal-space fixed flex-row align-center">
+  <div class="window modal-window flex-row align-cm">
+    <form class="contact-form flex-column">
+      <span class="contact-details-text">
+        Fill in your details
+      </span>
+      <fieldset class="contact-wrap flex-column">
+        <label *ngFor="let label of spanLabelNames" class="contact-label flex-column">
+          <span class="contact-label-name montserrat-text">
+            {{label}}
+          </span>
+          <input class="contact-field field-small raleway-text" placeholder="{{label}}">
+        </label>
+      </fieldset>
+    </form>
+    <button class="transparent-button" (click)="onCloseModal()">
+      <img src="assets/images/email_icon.svg" class="circle">
+    </button>
+  </div>
+</div>

@@ -1,0 +1,105 @@
+.contact {
+  margin-top: 10rem;
+
+  width: 100%;
+
+  background-color: rgba(236, 236, 236, 0.47);
+}
+
+.contact-contacts {
+  width: 45%;
+
+  padding-left: 4rem;
+
+  text-align: start;
+
+  color: #ffffff;
+
+  background-color: #8c00ff;
+}
+.contact-title-block {
+  margin-top: 4rem;
+
+}.contact-block-text {
+   font-size: 1.6rem;
+   font-weight: bold;
+
+ }.contact-text {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+.contact-info {
+  height: 25rem;
+}
+.contact-icon {
+  margin-right: 1rem;
+
+}.contact-cred-type {
+   margin-top: 3rem;
+ }
+
+.contact-creds {
+  font-weight: bold;
+}
+
+.contact-details {
+  width: 55%;
+
+}.contact-details-text {
+   align-self: start;
+
+  margin: 4rem 0 0 6rem;
+
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.contact-form {
+  width: 100%;
+
+  align-items: center;
+
+  text-align: start;
+}
+.contact-wrap-margin {
+  margin-top: 3rem;
+}
+.contact-wrap {
+  width: 80%;
+
+  border: none;
+}
+
+.contact-label {
+  margin-top: 1rem;
+}
+.contact-label-name {
+  margin-top: 1.5rem;
+  color: #6c6c6c;
+
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.contact-field {
+  margin-top: 0.2rem;
+
+  height: 2rem;
+
+  background: transparent;
+
+  border: none;
+  border-bottom: 0.1rem solid #a6a6a6;
+}.field-large {
+   height: 3.5rem;
+ }
+
+.contact-button {
+  margin-top: 2rem;
+
+  color: #ffffff;
+
+  font-size: 1rem;
+  font-weight: bold;
+
+  width: 77%;
+}

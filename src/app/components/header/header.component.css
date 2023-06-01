@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+
+  justify-content: space-around;
+
+  margin: 2rem 0;
+  padding: 0 10rem;
+}
+
+.header-navbar-list-item {
+  margin: 0 1rem;
+}
+
+.header-link {
+  color: #ffffff;
+
+  text-transform: uppercase;
+}
+
+.header-link:hover {
+  color: #d7e5fd;
+
+  text-shadow:
+    -1px -1px #b300b7,
+    1px 1px #8c00ff;
+}
+
+.header-nav .primary-button {
+  text-transform: uppercase;
+}

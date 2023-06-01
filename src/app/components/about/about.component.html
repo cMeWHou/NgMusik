@@ -1,0 +1,45 @@
+<section class="about-music relative flex-row align-cm montserrat-text">
+  <div class="about-music-images flex-row align-cm">
+    <img
+      src="{{firstPokemon}}"
+      alt="About Musik Image"
+      class="about-music-image about-music-image-back absolute"
+      style="{{firstStyles}}"
+    >
+    <img
+      src="{{secondPokemon}}"
+      alt="About Musik Image"
+      class="about-music-image about-music-image-front"
+      (mouseenter)="onMouseEnter()"
+      (mouseleave)="onMouseLeave()"
+      style="{{secondStyles}}"
+    >
+  </div>
+  <div class="about-music-content flex-column">
+                <span class="about-music-main-text montserrat-text">
+                    About Musik
+                </span>
+    <span class="about-music-text raleway-text">
+                    Fusce justo mi, vehicula id arcu et,
+                    dapibus tristique lectus. Vivamus a
+                    elit sodales, tincidunt nunc non,
+                    maximus lacus. Fusce a augue sed
+                    dolor auctor iaculis vitae id mauris.
+                    Integer ut lectus non neque suscipit
+                    luctus. Mauris et erat id ipsum
+                    condimentum cursus. Sed tempus enim
+                    non massa mattis iaculis. In quis massa risus
+                </span>
+    <button type="submit" class="button accent-button about-music-button
+                                            flex-row align-cm raleway-text">
+      <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD%D1%83%D1%88%D0%BA%D0%B8_International"
+         class="style-off flex-row align-cm raleway-text">
+        Learn more
+        <img
+          src="assets/images/arrow_right.svg"
+          alt="Right Arrow"
+          class="about-music-button-pic arrow-pic">
+      </a>
+    </button>
+  </div>
+</section>

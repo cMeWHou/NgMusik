@@ -1,0 +1,41 @@
+<section class="hero montserrat-text">
+  <div class="hero-intro flex-column align-cm">
+                <span class="hero-intro-main-text">
+                    The Best Experience Of
+                    <span class="hero-highlight-text">Music</span>
+                    In 2021
+                </span>
+    <span class="hero-intro-text raleway-text">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Suspendisse vitae ligula placerat
+                    eleifend ex non, vehicula libero.
+                    Suspendisse eget tellus lectus.
+                </span>
+    <div class="hero-buttons flex-row">
+      <button id="open_modal_button" type="submit" class="button accent-button montserrat-text" (click)="onOpenModal()">
+                        <span class="hero-text">
+                            Get Started
+                        </span>
+      </button>
+      <button type="submit" class="button transparent-button montserrat-text">
+                        <span class="hero-text flex-row align-cm">
+                            <img
+                              src="assets/images/play_video.svg"
+                              alt="Play Video Icon"
+                              class="hero-play-icon"
+                            >
+                            Watch Video
+                        </span>
+      </button>
+    </div>
+  </div>
+  <div class="hero-countdown flex-row align-cm">
+                <span class="hero-countdown-text">
+                    {{day}}d
+                    {{hour}}h
+                    {{minute}}m
+                    {{second}}s
+                </span>
+  </div>
+</section>

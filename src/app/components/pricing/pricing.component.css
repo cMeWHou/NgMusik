@@ -1,0 +1,113 @@
+.pricing {
+  margin-top: 10rem;
+}
+
+.pricing-main-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+
+}
+
+.pricing-card-text-content {
+  margin-top: 2rem;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.pricing-card-price {
+  margin-top: 1rem;
+
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.pricing-cards {
+  margin-top: 3rem;
+
+  padding: 1rem 2rem 3rem 2rem;
+}
+
+.pricing-card {
+  width: 18rem;
+  height: 21rem;
+
+  margin: 0 1rem;
+
+  border-radius: 1.5rem;
+
+  box-shadow: 0 1rem 1.5rem 0.1rem rgba(0, 0, 0, 0.38);
+
+  transition: 500ms;
+}
+
+.pricing-card:nth-child(1) {
+  border-top: 0.25rem solid #000000;
+}
+
+.pricing-card:nth-child(2) {
+  border-top: 0.25rem solid #b892ff;
+}
+
+.pricing-card:nth-child(3) {
+  border-top: 0.25rem solid #ff6e6e;
+}
+
+.pricing-card:hover {
+  transform: scale(105%);
+
+  transition: 500ms;
+}
+
+.pricing-card .button {
+  margin-top: 1.5rem;
+}
+
+.pricing-card-info {
+  margin-top: 1.5rem;
+}
+
+.pricing-wifi-access-info {
+  margin-top: 0.8rem;
+}
+
+.pricing-food-info {
+  margin-top: 0.8rem;
+}
+
+.button.primary-button {
+  text-transform: none;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.button.accent-button {
+  background-color: #b892ff;
+
+  color: #ffffff;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.button.accent-button:hover {
+  background-color: #9a63ff;
+}
+
+.basic-price {
+  color: #000000;
+}
+
+.standart-price {
+  color: #b892ff;
+}
+
+.premium-price {
+  color: #ff6e6e;
+}
+
+.empty-price-info {
+  color: #a6a6a6;
+}

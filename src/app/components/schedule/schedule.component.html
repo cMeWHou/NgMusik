@@ -1,0 +1,63 @@
+<section class="schedule flex-column align-cm">
+  <div class="schedule-tabs flex-column">
+                <span class="schedule-main-text montserrat-text">
+                    Event Schedule
+                </span>
+    <div class="schedule-days-tabs flex-row montserrat-text">
+      <div class="schedule-day-tab {{schedule_tabIndex == 0 ? activeTab : ''}} flex-column align-cm"
+           (click)="SetScheduleTabTitle(0)">
+        <span class="schedule-day-main-text">Day 01</span>
+        <span class="schedule-day-text">16 August</span>
+      </div>
+      <div class="schedule-day-tab {{schedule_tabIndex == 1 ? activeTab : ''}} flex-column align-cm"
+           (click)="SetScheduleTabTitle(1)">
+        <span class="schedule-day-main-text">Day 02</span>
+        <span class="schedule-day-text">17 August</span>
+      </div>
+      <div class="schedule-day-tab {{schedule_tabIndex == 2 ? activeTab : ''}} flex-column align-cm"
+           (click)="SetScheduleTabTitle(2)">
+        <span class="schedule-day-main-text">Day 03</span>
+        <span class="schedule-day-text">18 August</span>
+      </div>
+    </div>
+  </div>
+  <div class="schedule-table-container">
+    <div class="schedule-table flex-column">
+      <div class="table-row table-header-row flex-row align-cm montserrat-text">
+        <div class="table-column time-col column-name">Time</div>
+        <div class="table-column content-col column-name">Content</div>
+        <div class="table-column speaker-col column-name">Speakers</div>
+        <div class="table-column play-button-col column-name">&nbsp;</div>
+      </div>
+      <div *ngFor="let row of schedule_rows[schedule_tabIndex]" class="table-row flex-row auto-table-row">
+        <div class="table-column schedule-time-column time-col raleway-text">
+          {{row.time}}
+        </div>
+        <div class="table-column schedule-content-column content-col raleway-text">
+          {{row.content}}
+        </div>
+        <div class="table-column schedule-speakers-column speaker-col flex-column align-cm">
+          <div *ngFor="let speaker of row.speakers" class="schedule-speaker flex-row align-cm">
+            <img src="{{speaker.image}}" alt="">
+            <div class="schedule-speaker-info flex-column">
+              <div class="schedule-speaker-name">
+                {{speaker.name}}
+              </div>
+              <div class="schedule-booth raleway-text">
+                Booth: {{speaker.booth}}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="table-column schedule-view-column play-button-col flex-row align-cm">
+          <button class="schedule-view-button transparent-button flex-row align-cm">
+            <span class="schedule-view-button-text upcoming-button-text raleway-text">
+              {{row.buttonContent.text}}
+            </span>
+            <img src="{{row.buttonContent.source}}" class="schedule-view-button-icon">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

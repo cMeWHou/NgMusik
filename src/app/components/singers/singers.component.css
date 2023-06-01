@@ -1,0 +1,86 @@
+.singers {
+  margin-top: 6rem;
+}
+
+.singers-content {
+  width: 25rem;
+
+  padding-left: 5rem;
+
+  text-align: start;
+}
+.singers-main-text {
+  font-size: 2rem;
+}
+.singers-text {
+  margin-top: 2rem;
+
+  font-size: 0.85rem;
+}
+
+.singers-button {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+
+  width: 15rem;
+
+  justify-content: space-around;
+
+  box-shadow:
+    0 0 20px 10px rgba(56, 29, 219, 0.2);
+
+  font-weight: bold;
+  color: #ffffff;
+
+}.singers-button > a {
+    color: #ffffff;
+  }
+
+.singers-images {
+  height: 60rem;
+  width: 50rem;
+
+  padding: 5rem 0 0 3rem;
+  margin-left: 4rem;
+}
+.singers-image {
+  margin: 0.5rem;
+
+  position: relative;
+
+  transition: 500ms;
+}.singers-image:hover {
+   transform: scale(95%);
+
+   transition: 500ms;
+ }
+.singers-top-left-image {
+  box-shadow:
+    0 0 4rem 0.1rem #b7638a;
+
+  border-radius: 2rem;
+}
+.singers-top-right-image {
+  top: -2rem;
+
+  box-shadow:
+    0 0 4rem 0.1rem #a488dc;
+
+  border-radius: 2rem;
+}
+.singers-bottom-left-image {
+  top: 2rem;
+
+  box-shadow:
+    0 0 4rem 0.1rem #586d86;
+
+  border-radius: 2rem;
+}
+.singers-bottom-right-image {
+  top: -2rem;
+
+  box-shadow:
+    0 0 4rem 0.1rem #91c4a7;
+
+  border-radius: 2rem;
+}

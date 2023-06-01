@@ -1,0 +1,137 @@
+.schedule {
+  margin-top: 5rem;
+
+  background:
+    linear-gradient(180deg, #f3f0ff 0%, #ffffff 100%);
+}
+
+.schedule-tabs {
+  margin-top: 7rem;
+
+  width: 70%;
+
+  text-align: start;
+
+}.schedule-main-text {
+   font-size: 2rem;
+   font-weight: bold;
+
+ }
+.schedule-days-tabs {
+  padding: 1rem;
+  margin-top: 2rem;
+
+  justify-content: space-between;
+
+}.schedule-day-tab {
+   width: 32%;
+
+   padding-bottom: 1rem;
+
+   color: #808080;
+
+   border-bottom: 0.25rem solid rgba(196, 180, 250, 0.8);
+
+   border-radius: 1rem;
+
+   transition: 500ms;
+
+ }.schedule-day-tab:hover {
+    box-shadow: 0 0 0.5rem 0.1rem #b892ff;
+
+    transition: 500ms;
+  }
+.tab-active {
+  color: #8c00ff;
+
+  border-top: 0.25rem solid #8c00ff;
+  border-bottom: none;
+
+  transition: 500ms;
+}.schedule-day-main-text {
+   font-size: 1.5rem;
+   font-weight: bold;
+ }.schedule-day-text {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+.schedule-table-container {
+  margin-top: 2rem;
+
+  width: 70%;
+
+  border: 0.1rem solid #dddddd;
+
+  border-radius: 2rem;
+}.table-header-row {
+   height: 5rem;
+
+   overflow-y: hidden;
+
+   background: rgba(235, 227, 255, 0.8);
+
+   border-radius: 2rem 2rem 0 0;
+ }.table-row {
+    padding: 2rem;
+
+    text-align: start;
+
+    font-size: 0.8rem;
+
+    border-bottom: 0.1rem solid #dddddd;
+  }.table-last-row {
+     border-bottom: 0;
+   }
+.table-column {
+  margin: 0 0.5rem;
+}
+
+.column-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.time-col {
+  width: 25%;
+}.content-col {
+   width: 40%;
+
+   font-size: 0.8rem;
+   font-weight: bold;
+ }.speaker-col {
+    width: 20%;
+
+    margin-left: 5rem;
+
+  }.play-button-col {
+     width: 20%;
+   }
+
+.schedule-speaker {
+  margin: 0.5rem 0;
+
+  width: 100%;
+
+  justify-content: start;
+}.schedule-speaker-info {
+   margin-left: 0.5rem;
+
+   text-align: start;
+ }
+.schedule-booth {
+  color: #a2a2a2;
+}.schedule-booth-bold {
+   font-weight: bold;
+ }
+
+.schedule-view-button {
+  justify-content: end;
+}.schedule-view-button-text {
+   margin: 0 0.5rem;
+
+   font-weight: bold;
+ }
+.live-button-text {
+  color: #ff5252;
+}

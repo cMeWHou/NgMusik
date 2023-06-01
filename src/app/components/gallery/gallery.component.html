@@ -1,0 +1,26 @@
+<section class="gallery relative flex-column align-cm">
+  <img src="assets/images/insta_back_icon.svg" alt="" class="gallery-back-icon absolute">
+  <span class="gallery-main-text montserrat-text">See our best shots</span>
+  <div class="gallery-shots flex-row align-cm">
+    <article *ngFor="let shot of shots; let index = index" class="gallery-shot relative">
+      <img src="{{shot.img}}" alt="" class="gallery-shot-img {{index === 0 || index === shots.length - 1 ? backImage : ''}}">
+      <div class="gallery-shot-info flex-column">
+        <div class="gallery-shot-stats flex-row">
+          <div class="gallery-shot-stat" (click)="SetLike(index)">
+            <img src="assets/images/like_icon.svg" alt="" class="gallery-stat-icon">
+            <span class="gallery-count-info">{{shot.likes}}</span>
+          </div>
+          <div class="gallery-shot-stat">
+            <img src="assets/images/comment_icon.svg" alt="" class="gallery-stat-icon">
+            <span class="gallery-count-info">{{shot.comms}}</span>
+          </div>
+        </div>
+        <span class="gallery-shot-name">Lorem Ipsum Amet</span>
+        <span class="gallery-shot-tags raleway-text">#music #concert #conference #london
+                            #event #artist #dj #soundtrack #dance</span>
+      </div>
+      <img *ngIf="index === 0 || index === shots.length - 1" src="assets/images/arrow_left.svg" alt=""
+           class="gallery-shot-arrow gallery-shot-arrow-{{index !== 0 ? 'right' : 'left'}} absolute" (click)="RotateSet(index)">
+    </article>
+  </div>
+</section>
